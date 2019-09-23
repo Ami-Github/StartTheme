@@ -1,0 +1,106 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2019-09-18 07:23:37
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.3.4
+WORDPRESS:	5.2.3
+PHP INFO:	7.2.9 | SAPI: fpm-fcgi
+SERVER:		nginx/1.14.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE: Manual
+MEMORY STACK: 4MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+ 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+SCHEMA SIZE: [1884160] 
+SQL CREATED: 20190918_starttheme_a3705e7a7cef66525637_20190918072241_database.sql 
+SQL FILE SIZE: 326.13KB 
+SQL FILE TIME: 2019-09-18 07:23:42 
+SQL RUNTIME: 5.185 sec. 
+MEMORY STACK: 2MB 
+
+******************************************************************************** 
+ARCHIVE Mode:ZipArchive Multi-Threaded 
+******************************************************************************** 
+ARCHIVE DIR:  /app/public 
+ARCHIVE FILE: 20190918_starttheme_a3705e7a7cef66525637_20190918072241_archive.zip 
+COMPRESSION: *ON* 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+FILES:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	143.53MB 
+STATS:	Dirs 2,831 | Files 21,251 | Total 24,082 
+SQL ADDED: 20190918_starttheme_a3705e7a7cef66525637_20190918072241_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4388
+    [filename] => /app/public/wp-content/backups-dup-pro/tmp/20190918_starttheme_a3705e7a7cef66525637_20190918072241_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6583
+    [filename] => /app/public/wp-content/backups-dup-pro/tmp/20190918_starttheme_a3705e7a7cef66525637_20190918072241_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 17214
+    [filename] => /app/public/wp-content/backups-dup-pro/tmp/20190918_starttheme_a3705e7a7cef66525637_20190918072241_archive.zip
+    [comment] => 
+)
+ 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 24082
+    [filename] => /app/public/wp-content/backups-dup-pro/tmp/20190918_starttheme_a3705e7a7cef66525637_20190918072241_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSED SIZE: 47.98MB 
+ARCHIVE RUNTIME: 13.472 sec. 
+MEMORY STACK: 4MB 
+Installer files added to archive 
+
+******************************************************************************** 
+STORAGE: 
+******************************************************************************** 
+LOCAL: Default, /app/public/wp-content/backups-dup-pro 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 326.13KB 
+INSTALLER FILE: 211.67KB 
+ARCHIVE FILE: 49.39MB  
+EXPECTED FILE/DIRECTORY COUNT: 24,082 
+ACTUAL FILE/DIRECTORY COUNT: 24,082 
+ARCHIVE CONSISTENCY TEST: Pass 
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 176.446 sec.
+PEAK PHP MEMORY USED: 2MB
+DONE PROCESSING => 20190918_starttheme 2019-09-18 07:26:33
+ 

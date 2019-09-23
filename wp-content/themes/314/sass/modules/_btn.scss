@@ -1,0 +1,10 @@
+.btn {
+  padding: 10px 20px;
+  background-color: green;
+  text-align: center;
+  color: #fff;
+
+  &:active, &:visited {
+    color: #fff;
+  }
+}

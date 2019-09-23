@@ -1,0 +1,128 @@
+.generic-content {
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  a {
+    color: #000;
+    transition: .2s all ease;
+
+    &:hover {
+      color: #333;
+    }
+
+    &:visited, &:active {
+      color: #000;
+    }
+  }
+
+  h1:not([class^="headline"]),
+  h2:not([class^="headline"]),
+  h3:not([class^="headline"]),
+  h4:not([class^="headline"]),
+  h5:not([class^="headline"]),
+  h6:not([class^="headline"]) {
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  ul {
+    margin-bottom: 30px;
+
+    >li {
+      font-size: 16px;
+      margin: 10px 0;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 24px;
+
+      &:before {
+        content: '-';
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0px;
+      }
+    }
+  }
+
+  ol {
+    margin-bottom: 30px;
+    counter-reset: list-counter;
+
+    >li {
+      font-size: 16px;
+      margin: 12px 0;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 24px;
+      counter-increment: list-counter;
+
+      &:before {
+        content: counter(list-counter) ".";
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        color: gray;
+      }
+    }
+  }
+
+  table {
+    margin: 0 auto;
+    color: gray;
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin: 8px 0 20px;
+
+    thead tr,
+    thead th {
+      color: #fff;
+    }
+
+    thead th,
+    tfoot th {
+      text-align: left;
+      font-weight: bold;
+    }
+
+    caption {
+      padding: 1em .8em;
+    }
+
+    th, td {
+      padding: .7em;
+      line-height: 1.2;
+      color: #333;
+    }
+
+    tr {
+      border-bottom: 1px solid #ddd;
+
+      &:first-of-type {
+        font-weight: bold;
+        color: #333;
+
+        td {
+          line-height: 1.4;
+          display: table-cell;
+          vertical-align: bottom;
+          padding-bottom: .9em;
+        }
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+}

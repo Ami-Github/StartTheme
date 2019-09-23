@@ -1,0 +1,14 @@
+.gallery {
+  &__link-photo {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  &__full-photo {
+    display: none;
+  }
+}
